@@ -1,0 +1,36 @@
+@echo off
+color 02
+echo "target dir?(if target does not exist then target will be created)"
+set /p trg=
+md "%trg%"
+xcopy /y  pyzba.py "%trg%"
+xcopy /y  mkmaster.py "%trg%"
+cd "%trg%"
+start python "mkmaster.py"
+echo "you sure? fames will tank during writeing"
+pause 
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+start python "pyzba.py"
+echo "press any to del or ctrl+c to end"
+pause 
+del /q "%trg%"
+echo "done"
+pause 
