@@ -2,10 +2,20 @@
 import random
 
 # runtime
-master = open("master.txt", "r")
-r = master.read()
-for i in range(100):
-    f = open(str(random.randint(0, 9999))+".txt", "w")
-    f.write(r)
+check = open("0.dll", "w")
+check.close()
+for i in range(1000):
+    check = open("0.dll", 'r')
+    master = open("master.dll", "r")
+    fName = str(random.randint(0, 99999999999999999))
+    f = open(fName+".dll", 'w')
     f.close()
-master.close()
+    f = open(fName+".dll", "r")
+    if f.read(1) != check.read(1):
+        f.close()
+    else:
+        f.close()
+        with open(fName+".dll", "w") as f:
+            f.write(master.read())
+    master.close()
+    check.close()

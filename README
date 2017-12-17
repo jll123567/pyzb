@@ -1,0 +1,14 @@
+How to use:
+    copy mkmaster.py, pyzba.py, and mainzb.bat to target folder
+    run mainzb.bat
+System requirements:
+    you must be able to run .bat files
+    you must have python in the system environment variables
+What does this do:
+    fills the target directory with a lot of files
+Usage notes:
+    use this software at your own discretion. This is NOT to be used on any systems that you do not own or do not have
+        explicit permission to do so upon.
+    I am not responsible for what you do with this software.
+Made by jll123567
+Have a good day.
