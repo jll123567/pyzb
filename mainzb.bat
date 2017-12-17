@@ -7,7 +7,7 @@ xcopy /y  pyzba.py "%trg%"
 xcopy /y  mkmaster.py "%trg%"
 cd "%trg%"
 start python "mkmaster.py"
-echo "you sure? fames will tank during writeing"
+echo "you sure? frames will tank during writing"
 pause 
 start python "pyzba.py"
 start python "pyzba.py"
